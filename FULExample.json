@@ -1,0 +1,323 @@
+{
+  "expand": "editmeta,renderedFields,transitions,changelog,operations",
+  "id": "150455",
+  "self": "http://jira.bedbath.com:8007/rest/api/2/issue/150455",
+  "key": "FUL-2265",
+  "fields": {
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "summary": " VDC orders not allocating to vendor but instead ending up in DOM",
+    "issuetype": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/issuetype/9",
+      "id": "9",
+      "description": "A problem which impairs or prevents existing functionality caused by a specification not to the requirement(s)",
+      "iconUrl": "http://jira.bedbath.com:8007/images/icons/issuetypes/defect.png",
+      "name": "Defect",
+      "subtask": false
+    },
+    "votes": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/issue/FUL-2265/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "resolution": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/resolution/4",
+      "id": "4",
+      "description": "The problem is not completely described.",
+      "name": "Incomplete"
+    },
+    "fixVersions": [],
+    "resolutiondate": "2016-03-10T15:09:18.000-0500",
+    "timespent": null,
+    "reporter": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=jomolo",
+      "name": "jomolo",
+      "emailAddress": "Joseph.Omolo@bedbath.com",
+      "avatarUrls": {
+        "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10122",
+        "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10122"
+      },
+      "displayName": "Joseph Omolo",
+      "active": true
+    },
+    "aggregatetimeoriginalestimate": null,
+    "updated": "2016-03-10T15:09:18.000-0500",
+    "customfield_12801": null,
+    "created": "2015-12-28T13:44:45.000-0500",
+    "description": "Last week I manually sent about 30 orders to the vendor in DS even though the vendor was sending us inventory feed. The orders went to DOM instead.  I have attached a few more orders from this vendor that also ended up in DOM.  Please see if you can figure out why these orders didn't allocate to the vendor.  ",
+    "priority": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/priority/3",
+      "iconUrl": "http://webmaster.bedbath.com/JIRA_Priorities/priority_major.jpg",
+      "name": "Severity/Priority 3",
+      "id": "3"
+    },
+    "duedate": null,
+    "issuelinks": [],
+    "watches": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/issue/FUL-2265/watchers",
+      "watchCount": 4,
+      "isWatching": false
+    },
+    "subtasks": [],
+    "customfield_11402": null,
+    "status": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/status/6",
+      "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+      "iconUrl": "http://jira.bedbath.com:8007/images/icons/status_closed.gif",
+      "name": "Closed",
+      "id": "6"
+    },
+    "labels": [],
+    "workratio": -1,
+    "assignee": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=jomolo",
+      "name": "jomolo",
+      "emailAddress": "Joseph.Omolo@bedbath.com",
+      "avatarUrls": {
+        "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10122",
+        "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10122"
+      },
+      "displayName": "Joseph Omolo",
+      "active": true
+    },
+    "aggregatetimeestimate": null,
+    "versions": [],
+    "project": {
+      "self": "http://jira.bedbath.com:8007/rest/api/2/project/FUL",
+      "id": "10503",
+      "key": "FUL",
+      "name": "Fulfillment",
+      "avatarUrls": {
+        "16x16": "http://jira.bedbath.com:8007/secure/projectavatar?size=small&pid=10503&avatarId=10011",
+        "48x48": "http://jira.bedbath.com:8007/secure/projectavatar?pid=10503&avatarId=10011"
+      }
+    },
+    "environment": null,
+    "timeestimate": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "lastViewed": null,
+    "components": [],
+    "timeoriginalestimate": null,
+    "aggregatetimespent": null
+  },
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 8,
+    "total": 8,
+    "histories": [
+      {
+        "id": "726574",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=cakoijam",
+          "name": "cakoijam",
+          "emailAddress": "Chingkhei.Akoijam@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10108",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10108"
+          },
+          "displayName": "Chingkhei Akoijam",
+          "active": true
+        },
+        "created": "2015-12-31T15:28:33.723-0500",
+        "items": [
+          {
+            "field": "Attachment",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "130142",
+            "toString": "CO Import.xml"
+          }
+        ]
+      },
+      {
+        "id": "726575",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=cakoijam",
+          "name": "cakoijam",
+          "emailAddress": "Chingkhei.Akoijam@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10108",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10108"
+          },
+          "displayName": "Chingkhei Akoijam",
+          "active": true
+        },
+        "created": "2015-12-31T15:28:40.737-0500",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "cakoijam",
+            "fromString": "Chingkhei Akoijam",
+            "to": "ecom.websupport",
+            "toString": "IT - Eservice WebSupport"
+          }
+        ]
+      },
+      {
+        "id": "732523",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=mzych",
+          "name": "mzych",
+          "emailAddress": "Matt.Zych@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&ownerId=mzych&avatarId=10308",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?ownerId=mzych&avatarId=10308"
+          },
+          "displayName": "Matt Zych",
+          "active": true
+        },
+        "created": "2016-01-07T14:58:36.267-0500",
+        "items": [
+          {
+            "field": "issuetype",
+            "fieldtype": "jira",
+            "from": "3",
+            "fromString": "Task",
+            "to": "9",
+            "toString": "Defect"
+          }
+        ]
+      },
+      {
+        "id": "799899",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=sammanabrolu",
+          "name": "sammanabrolu",
+          "emailAddress": "Sree.Ammanabrolu@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10117",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10117"
+          },
+          "displayName": "Sree  Ammanabrolu",
+          "active": true
+        },
+        "created": "2016-02-29T10:54:50.687-0500",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "ecom.websupport",
+            "fromString": "IT - Eservice WebSupport",
+            "to": "rmahmood",
+            "toString": "Rashid Mahmood"
+          }
+        ]
+      },
+      {
+        "id": "800375",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=rmahmood",
+          "name": "rmahmood",
+          "emailAddress": "rmahmood@sapient.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&ownerId=rmahmood&avatarId=14203",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?ownerId=rmahmood&avatarId=14203"
+          },
+          "displayName": "Rashid Mahmood",
+          "active": true
+        },
+        "created": "2016-02-29T12:50:25.350-0500",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "rmahmood",
+            "fromString": "Rashid Mahmood",
+            "to": "cakoijam",
+            "toString": "Chingkhei Akoijam"
+          }
+        ]
+      },
+      {
+        "id": "803978",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=cakoijam",
+          "name": "cakoijam",
+          "emailAddress": "Chingkhei.Akoijam@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10108",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10108"
+          },
+          "displayName": "Chingkhei Akoijam",
+          "active": true
+        },
+        "created": "2016-03-02T10:53:37.083-0500",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "cakoijam",
+            "fromString": "Chingkhei Akoijam",
+            "to": "rmahmood",
+            "toString": "Rashid Mahmood"
+          }
+        ]
+      },
+      {
+        "id": "803980",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=cakoijam",
+          "name": "cakoijam",
+          "emailAddress": "Chingkhei.Akoijam@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10108",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10108"
+          },
+          "displayName": "Chingkhei Akoijam",
+          "active": true
+        },
+        "created": "2016-03-02T10:53:54.167-0500",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "rmahmood",
+            "fromString": "Rashid Mahmood",
+            "to": "jomolo",
+            "toString": "Joseph Omolo"
+          }
+        ]
+      },
+      {
+        "id": "818298",
+        "author": {
+          "self": "http://jira.bedbath.com:8007/rest/api/2/user?username=jomolo",
+          "name": "jomolo",
+          "emailAddress": "Joseph.Omolo@bedbath.com",
+          "avatarUrls": {
+            "16x16": "http://jira.bedbath.com:8007/secure/useravatar?size=small&avatarId=10122",
+            "48x48": "http://jira.bedbath.com:8007/secure/useravatar?avatarId=10122"
+          },
+          "displayName": "Joseph Omolo",
+          "active": true
+        },
+        "created": "2016-03-10T15:09:18.757-0500",
+        "items": [
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "1",
+            "fromString": "Open",
+            "to": "6",
+            "toString": "Closed"
+          },
+          {
+            "field": "resolution",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "4",
+            "toString": "Incomplete"
+          }
+        ]
+      }
+    ]
+  }
+}
